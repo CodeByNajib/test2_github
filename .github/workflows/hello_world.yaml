@@ -11,7 +11,7 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - #uses: actions/checkout@v3  : AI sætter ind pr. default
+       #- uses: actions/checkout@v3  : AI sætter ind pr. default
       - name: Run hello world
         run: echo "Hello world"
         shell: bash
